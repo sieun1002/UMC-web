@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="mission.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login"><h1>회원가입</h1></div>
+      <form name="form" id="form" method="post">
+        <label for="username"
+          >이름<br />
+          <input type="text" name="username" id="username" />
+          <div class="message_div"></div>
+        </label>
+        <br />
+
+        <label for="nickname"
+          >닉네임 <br />
+          <input type="text" name="nickname" id="nickname" />
+          <div class="message_div"></div>
+        </label>
+        <br />
+
+        <label for="email"
+          >이메일 <br />
+          <input name="email" id="email" />
+          <div class="message_div"></div>
+        </label>
+        <br />
+
+        <label for="password"
+          >비밀번호 <br />
+          <input type="password" name="password" id="password" />
+          <div class="message_div"></div>
+        </label>
+        <br />
+
+        <label for="password_check"
+          >비밀번호 확인 <br />
+          <input type="password" name="password_check" id="password_check" />
+          <div class="message_div"></div>
+        </label>
+        <br />
+
+        <button type="submit" id="submit" disabled>가입하기</button>
+      </form>
+    </div>
+
+    <div class="modalDiv">
+      <div class="modalBox">
+        <h1>가입 성공!</h1>
+        <h5>umc 챌린저 가입을 축하합니다!!</h5>
+        <button id="closeButton">닫기</button>
+      </div>
+    </div>
+
+    <script src="mission.js"></script>
+  </body>
+</html>

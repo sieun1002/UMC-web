@@ -1,0 +1,68 @@
+body {
+  height: 100vh;
+  background-image: url(./UMC\ 뭔가\ 간지나는\ 배경.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.527);
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.login {
+  width: 400px;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.678);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.form {
+  width: 300px;
+  margin: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.726);
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(39, 38, 41);
+  color: white;
+  border: 0px;
+  font-size: large;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.link {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
