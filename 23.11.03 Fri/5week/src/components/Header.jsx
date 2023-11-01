@@ -7,6 +7,8 @@ import {
   StyledLink,
 } from "./Header.style.jsx";
 
+import LoginControl from "./LoginControl.jsx";
+
 export default function Header() {
   return (
     <HeaderDiv>
@@ -24,6 +26,9 @@ export default function Header() {
         </HeaderList>
         <HeaderList>
           <StyledLink to="/Celebirity">인물</StyledLink>
+        </HeaderList>
+        <HeaderList>
+          <LoginControl />
         </HeaderList>
       </HeaderListDiv>
 
