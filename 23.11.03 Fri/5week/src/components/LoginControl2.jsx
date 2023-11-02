@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LoginDiv, Div, FontDiv } from "./LoginControl.style.jsx";
+import { LoginDiv, Div, FontDiv } from "../styles/LoginControl.style.jsx";
 
 export default function LoginControl2() {
   const [Login, setLogin] = useState(false);

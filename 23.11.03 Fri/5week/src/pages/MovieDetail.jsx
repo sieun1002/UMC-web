@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, useLocation } from "react-router-dom";
-import { MovieDetailImage } from "../components/Movie/Movie.style.jsx";
+import { MovieDetailImage } from "../styles/Movie.style.jsx";
 
 export default function MovieDetail() {
   const { title } = useParams();

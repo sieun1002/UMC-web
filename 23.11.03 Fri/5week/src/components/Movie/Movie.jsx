@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { MovieCard, Overlay, MovieImage, Description } from "./Movie.style.jsx";
+import {
+  MovieCard,
+  Overlay,
+  MovieImage,
+  Description,
+} from "../../styles/Movie.style.jsx";
 import { useNavigate } from "react-router-dom";
 
 function Movie({ movie }) {

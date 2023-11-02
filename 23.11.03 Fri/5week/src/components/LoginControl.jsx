@@ -1,5 +1,5 @@
 import React from "react";
-import { LoginDiv, Div, FontDiv } from "./LoginControl.style.jsx";
+import { LoginDiv, Div, FontDiv } from "../styles/LoginControl.style.jsx";
 
 class LoginControl extends React.Component {
   constructor(props) {
