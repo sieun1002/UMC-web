@@ -1,4 +1,4 @@
-// App.js 파일
+// // App.js 파일
 import React from "react";
 import Movie from "./components/Movie/Movie";
 import { movies } from "./movieDummy";

@@ -5,6 +5,7 @@ import TV from "./pages/TV";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import { movies } from "./movieDummy";
+import MovieDetail from "./pages/MovieDetail";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           />
           <Route path="/TV" element={<TV />} />
           <Route path="/" element={<Home />} />
+          <Route path="/Movies/:title" element={<MovieDetail />} />
         </Routes>
       </BrowserRouter>
     </div>

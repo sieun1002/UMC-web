@@ -37,3 +37,8 @@ export const Description = styled.div`
   color: #fff;
   display: none;
 `;
+
+export const MovieDetailImage = styled.img`
+  width: 200px;
+  height: auto;
+`;
