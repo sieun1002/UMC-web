@@ -30,4 +30,4 @@
 - 미션2 </br>
   : 잘못된 주소를 입력했을 때 NotFound.jsx가 뜨게 하고, 메인 페이지로 돌아갈 수 있는 기능 추가.
   -NotFound.jsx</br>
-  ![구현 화면 이미지](./6weekPractice.png)
+  ![구현 화면 이미지](./6weekMission2.png)
