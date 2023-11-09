@@ -2,6 +2,12 @@
 
 import styled from "styled-components";
 
+export const MovieWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
+
 export const MovieCard = styled.div`
   width: 200px;
   margin: 10px;

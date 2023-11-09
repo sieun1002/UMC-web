@@ -5,10 +5,13 @@ import {
   HeaderListDiv,
   HeaderList,
   StyledLink,
+  Styled2Link,
 } from "./Header.style.jsx";
+import { Link } from "react-router-dom";
 
 // import LoginControl from "./LoginControl.jsx";
-import LoginControl2 from "./LoginControl2.jsx";
+// import LoginControl2 from "./LoginControl2.jsx";
+import LoginControl3 from "./LoginControl3.jsx";
 
 export default function Header() {
   return (
@@ -29,7 +32,9 @@ export default function Header() {
           <StyledLink to="/Celebirity">인물</StyledLink>
         </HeaderList>
         <HeaderList>
-          <LoginControl2 />
+          <Styled2Link to="/Login">
+            <LoginControl3 />
+          </Styled2Link>
         </HeaderList>
       </HeaderListDiv>
 

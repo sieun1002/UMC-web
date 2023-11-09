@@ -26,3 +26,8 @@ export const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
 `;
+
+export const Styled2Link = styled(Link)`
+  color: #000000;
+  text-decoration: none;
+`;
